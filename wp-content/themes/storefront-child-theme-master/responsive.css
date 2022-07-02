@@ -1,0 +1,131 @@
+/*******Mozilla Firefox Hack*******/
+@-moz-document url-prefix() { 
+    .subscribe-form button.btn { width: 38.5%; }
+}
+
+/*******Internet Explorer Hack*******/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .subscribe-form button.btn { width: 38.5%; }
+}
+
+/*******Safari Hack*******/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+}
+
+@media all and (min-width:0) and (max-width:768px) {
+    .col { flex-basis: auto !important; }
+    .home-ptb { padding-top: 50px !important; padding-bottom: 50px !important; }
+    .top-container { padding-left: 15px !important;padding-right: 15px !important; }
+    .section-p { padding: 0 !important;background-size: cover !important;min-height: 400px !important; }
+    #section-map { margin-bottom: -280px !important; }
+    .col2-set, div#customer_details .form-row-first, div#customer_details .form-row-last, #order_review_heading, #order_review { width: 100% !important; }
+
+    .site-main ul.products.columns-5 li.product { width: 48%;float: left;margin-right: 5px; }
+    .site-main ul.products.columns-5 h2.woocommerce-loop-product__title { min-height: 100px; }
+
+    .related.products ul.products.columns-4 li { width: 48% !important;margin-right: 2% !important; }
+    .inner-banner-title h1 { font-size: 25px !important; }
+    h1.product_title.entry-title { font-size: 27px;margin-bottom: 0; }
+    .woocommerce-Tabs-panel h4 { font-size: 18px;  }
+	.inner-banner-title h2 { font-size: 18px !important; }
+	#section-footer { margin-bottom: 45px; }
+	.single-product div.product p.price { margin: 15px 0 20px !important; }
+	.mobile-bottom { height: 44px !important; }
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-bottom-right .xt_woofc-wrapper { bottom: 45px !important; }
+
+}
+
+/*******Mobile General Landscape*******/ 
+@media all and (min-width:0) and (max-width:768px) and (orientation: landscape) {
+    .header-wrap .brand a { width: 20% !important; }
+
+}
+
+
+/*==========i-phone portrait media query==============*/
+@media all and (min-width:320px) and (max-width:359px) {
+    
+}
+/*============i-phone landscape media query================*/
+@media all and (min-width:480px) and (max-width:600px) {
+    
+}
+/*==========samsung s4 portrait media query==============*/
+@media only screen and (min-width:360px) and (max-width:374px) {
+    
+    
+}
+/*==========samsung s4 landscape media query================*/
+@media (min-width:601px) and (max-width:650px) {
+    
+}
+
+/*==========i-phone 6 portrait media query==============*/
+@media only screen and (min-width:375px) and (max-width:479px) { 
+    
+}
+
+/*============i-phone 6 landscape media query================*/
+@media (min-width:651px) and (max-width:767px) {
+    
+}
+
+/*============i-phone 6 Plus landscape media query================*/
+@media (min-width:668px) and (max-width:767px) {
+    
+}
+
+
+/*============i-tab portrait media query================*/
+@media (min-width:768px) and (max-width:1023px) {
+    
+
+
+}
+/*============i-tab landscape media query================*/
+@media (min-width:1024px) and (max-width:1279px) {
+    .top-container { padding-left: 15px !important;padding-right: 15px !important; }
+	.woof_list label { font-size: 13px; }
+	.top-container { padding-left: 15px !important;padding-right: 14px !important; }
+	#main-head-section .section-wrapper-head .mmtrust .primary-menu li { padding-right: 9px !important; }
+	#main-head-section .section-wrapper-head .mmtrust .primary-menu li a { font-size: 13px !important; }
+	.inner-banner-title h2 { font-size: 25px; }
+	#topbar .topbar a { font-size: 12px !important; }
+}
+
+/*============Samsung Galaxy Note 10.1 landscape media query================*/
+@media (min-width:1280px) and (max-width:1299px) { 
+   .top-container { padding-left: 15px !important;padding-right: 15px !important; }
+	#main-head-section .section-wrapper-head .mmtrust .primary-menu li { padding-right: 9px !important; }
+	#main-head-section .section-wrapper-head .mmtrust .primary-menu li a { font-size: 15px !important; }
+	.inner-banner-title h2 { font-size: 25px; }
+	#topbar .topbar a { font-size: 14px !important; }
+   
+}
+ 
+
+@media (min-width: 1300px) and (max-width:1499px) {   
+    .top-container { padding-left: 15px !important;padding-right: 15px !important; }
+	#main-head-section .section-wrapper-head .mmtrust .primary-menu li { padding-right: 9px !important; }
+	#main-head-section .section-wrapper-head .mmtrust .primary-menu li a { font-size: 15px !important; }
+	.inner-banner-title h2 { font-size: 25px; }
+	#topbar .topbar a { font-size: 15px !important; }
+   
+    
+}
+
+@media (min-width: 1500px) and (max-width:1700px) { 
+    .top-container { padding-left: 15px !important;padding-right: 15px !important; }
+   	#main-head-section .section-wrapper-head .mmtrust .primary-menu li a { font-size: 15px !important; }
+	.inner-banner-title h2 { font-size: 25px; }
+	#topbar .topbar a { font-size: 15px !important; }
+    
+}
+/*============19.5" to 23" device media query================*/ 
+@media only screen and (min-width: 2001px) {    
+    
+}
+/*============27" large device media query================*/ 
+@media only screen and (min-width : 2400px) {
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 100%; }
+}      
